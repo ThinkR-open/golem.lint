@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# golem.lint
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+**{golem.lint}** is a comprehensive linting package designed for R developers using the [Golem framework](https://github.com/ThinkR-open/golem) to build `Shiny` applications.
+
+This package provides essential tools to help ensure your code adheres to best practices, enhancing the overall quality and maintainability of your applications.
+
+## Features
+
+- **Linting Tools**: Identify potential issues in your code, such as missing namespaces around IDs, ensuring your modules are well-structured.
+- **Best Practices**: Promote adherence to coding standards and best practices specific to the Golem framework.
+- **Improved Code Quality**: Enhance the reliability and maintainability of your `Shiny` applications through consistent linting.
+- **Easy Integration**: Seamlessly integrate `golem.lint` into your existing Golem projects for a smooth development experience.
+
+## Installation
+
+You can install the development version of golem.lint from [GitHub](https://github.com/) with:
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("ThinkR-open/golem.lint")
+```
+
+
+## Code of Conduct
+  
+Please note that the golem.lint project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+
+By contributing to this project, you agree to abide by its terms.
