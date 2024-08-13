@@ -1,0 +1,16 @@
+Package: golem.lint
+Title: Enhancing Code Quality for Golem Applications
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Colin", "Fay", , "contact@colinfay.me", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0001-7343-1846")),
+    person("Arthur", "Bréant", , "arthur@thinkr.fr", role = "aut"),
+    person("ThinkR", role = "cph")
+  )
+Description: The `golem.lint` package provides linting tools for building `Shiny` applications. 
+    It helps developers identify and correct potential issues in their code, 
+    ensuring adherence to best practices and improving overall code quality.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
