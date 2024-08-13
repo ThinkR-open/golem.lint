@@ -3,3 +3,5 @@
 ^CODE_OF_CONDUCT\.md$
 ^README\.html$
 ^\.github$
+^_pkgdown\.yml$
+
